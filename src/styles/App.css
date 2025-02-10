@@ -172,6 +172,11 @@ tr:hover {
 }
 
 @media screen and (max-width: 768px) {
+
+  .expenses-container {
+    width: 100%;
+    margin: 0px;
+  }
   /* Mobile */
   .header-container {
     flex-direction: column;
