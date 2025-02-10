@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Signup = () => {
     const [email, setEmail] = useState("");
@@ -47,7 +47,7 @@ const Signup = () => {
                 />
                 <button type="submit">Sign Up</button>
                 <p>
-                    Already have an account? <a onClick={navigate('/login')}>Login</a>
+                    Already have an account? <Link to='/login' >Login</Link>
                 </p>
             </form>
         </div>
