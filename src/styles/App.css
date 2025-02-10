@@ -314,7 +314,7 @@ tr:hover {
 /* ==== Responsive Design ==== */
 @media (max-width: 480px) {
   .form-container {
-    width: 92%;
+    width: 85%;
     margin: 20px auto;
     padding: 20px;
   }
