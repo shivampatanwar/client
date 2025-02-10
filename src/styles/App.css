@@ -175,7 +175,7 @@ tr:hover {
 
   .expenses-container {
     width: 85%;
-    margin: 0px;
+    margin: 0px auto;
   }
   /* Mobile */
   .header-container {
